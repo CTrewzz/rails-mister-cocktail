@@ -1,3 +1,76 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.form-wrap {
+  height: 100vh;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1536935338788-846bb9981813?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1372&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Nunito", "Helvetica", "sans-serif";
+  position: relative;
+}
+
+.form-cocktail {
+  width: 300px;
+  margin-right: 120px;
+  color: white;
+  display: flex;
+}
+
+.btn {
+  margin-left: 28px;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  color: black;
+  background:white;
+  opacity: 0.5;
+}
+
+.form-control {
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-back {
+  position: absolute;
+  left: 28px;
+  top: 8px;
+}
+
+.btn-back a {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.show-info {
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+}
+
+.description-show {
+  width: 400px;
+  height: 150px;
+  text-align: left;
+  color: white;
+}
+
+

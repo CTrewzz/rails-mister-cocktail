@@ -7,11 +7,12 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 25px;
   color: white;
   font-weight: bolder;
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  position: relative;
 }
 
 .cards {
@@ -22,4 +23,20 @@
 
 .main-container {
   display: flex;
+}
+
+.card a, i {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+.see-more {
+  position: relative !important;
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 14px !important;
 }
