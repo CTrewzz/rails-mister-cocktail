@@ -25,7 +25,7 @@
 <div class="card-list">
   <div class="cards">
     <% @cocktails.each do |cocktail| %>
-        <div class="card" style="background-image: url(<%= cocktail.img_url %>)">
+        <div class="card" style="background-image: url('<%= cl_image_path cocktail.photo.key %>')">
           <%= cocktail.name %>
           <%= link_to "Check out", cocktail_path(cocktail), class: "see-more" %>
           <%= link_to cocktail_path(cocktail),
@@ -34,4 +34,3 @@
     <% end %>
   </div>
 </div>
-
